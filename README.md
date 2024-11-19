@@ -88,7 +88,7 @@ Method: GET
 
 URL: http://localhost:8080/customer/get/{customerId}
 
-Body: <empty>
+Body: Empty
 
 Returns: Json customer data or error message
 
@@ -100,7 +100,13 @@ Returns: Json customer data or error message
 Method: DELETE
 
 URL: http://localhost:8080/customer/delete/{customerId}
-Body: <empty>
+
+Body: Empty
+
 Returns: Confirmation or error message
+
+*************************
+
+
 
 
