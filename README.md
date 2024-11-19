@@ -31,7 +31,7 @@ Following is the rest service instructions:
 
 Method: POST
 
-URL: http://localhost:8080/customer/create/
+URL: http://localhost:8080/customer/create
 
 Body: 
 ```
@@ -58,7 +58,7 @@ Returns: Confirmation or error message
 
 Method: PUT
 
-URL: http://localhost:8080/customer/update/
+URL: http://localhost:8080/customer/update/{customerId}
 
 Body: 
 
